@@ -1,4 +1,4 @@
-# mailserver
+# Rainloop Webmail Installer Script
 Simple Webmail rainloop installer
 
 Requirement
