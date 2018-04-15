@@ -9,4 +9,4 @@ Requirement
 
 -dns(**bind9**)
 
--**php** 5.4 or above with extensions: **cURL, iconv, json, libxml, dom, openssl, DateTime, PCRE, SPL
+-**php** 5.4 or above with extensions: **cURL, iconv, json, libxml, dom, openssl, DateTime, PCRE, SPL**
