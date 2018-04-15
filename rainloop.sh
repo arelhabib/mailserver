@@ -21,11 +21,11 @@ echo 'Insert your mail domain site'
 echo 'example: mail.sekolah.sch.id'
 read -p 'Mailsite: ' name
 touch mailserver.conf
-echo -e '<VirtualHost *:80>\nServerName' $name '\nServerAdmin webmaster@localhost\nDocumentRoot' $var '\n ErrorLog ${APACHE_LOG_DIR}/error.log\n CustomLog ${APACHE_LOG_DIR}/access.log combined\n</VirtualHost>' > mailserver.conf
+echo -e '<VirtualHost *:80>\nServerName' $name '\nServerAdmin webmaster@localhost\nDocumentRoot' $var '\nErrorLog ${APACHE_LOG_DIR}/error.log\nCustomLog ${APACHE_LOG_DIR}/access.log combined\n</VirtualHost>' > mailserver.conf
 a2ensite mailserver.conf
 service apache2 restart
 echo 'Installation Complete'
-echo 'Access your site by type "mailsite.com/?admin", login as admin to configure imap and smtp connection'
-echo 'Default user: admin, Password: 12345'
+echo 'Access your admin site by type "mailsite.com/?admin", login as admin to configure imap and smtp connection'
+echo 'Default user: admin, Default Password: 12345'
 echo 'Bye ^_^'
 echo '-made with <3'
