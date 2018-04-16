@@ -1,7 +1,7 @@
 # Rainloop Webmail Installer Script
 Simple Webmail rainloop installer
 
-Requirement
+Requirement:
 
 -webserver(**Apache2**)
 
@@ -10,3 +10,6 @@ Requirement
 -dns(**bind9**)
 
 -**php** 5.4 or above with extensions: **cURL, iconv, json, libxml, dom, openssl, DateTime, PCRE, SPL**
+
+Already Tested on:
+-Debian Stretch 9
