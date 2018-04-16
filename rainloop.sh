@@ -15,6 +15,7 @@ unzip rainloop-community-latest.zip -d $var
 find . -type d -exec chmod 755 {} \;
 find . -type f -exec chmod 644 {} \;
 chown -R www-data:www-data .
+rm rainloop-community-latest.zip
 echo 'Configuring site'
 cd /etc/apache2/sites-available
 echo 'Insert your mail domain site'
@@ -29,3 +30,4 @@ echo 'Access your admin site by type "mailsite.com/?admin", login as admin to co
 echo 'Default user: admin, Default Password: 12345'
 echo 'Bye ^_^'
 echo '-made with <3'
+sleep 5s
