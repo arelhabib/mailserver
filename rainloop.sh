@@ -30,4 +30,4 @@ echo 'Access your admin site by type "mailsite.com/?admin", login as admin to co
 echo 'Default user: admin, Default Password: 12345'
 echo 'Bye ^_^'
 echo '-made with <3'
-sleep 5s
+read -p "Press enter to continue"
