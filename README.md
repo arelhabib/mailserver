@@ -1,7 +1,7 @@
 # Rainloop Webmail Installer Script
 Simple Webmail rainloop installer
 
-Requirement:
+Requirements:
 
 -webserver(**Apache2**)
 
